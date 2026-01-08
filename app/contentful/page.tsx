@@ -1,15 +1,11 @@
 require("dotenv").config();
 import * as contentful from 'contentful'
-import React from 'react';
 import Markdown from 'react-markdown'
-
-
 
 const client = contentful.createClient({
   space: `${process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID}`,
   accessToken: `${process.env.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN}`,
 });
-
 
 async function getData() {
     let data: any;

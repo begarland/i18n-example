@@ -1,6 +1,5 @@
 require("dotenv").config();
 import * as contentful from 'contentful'
-import { uploadEntryToContentful } from '../fetches/uploadEntryToContentful';
 import UploadToContentfulButton from '../components/uploadToContentfulButton';
 
 const client = contentful.createClient({
@@ -24,9 +23,6 @@ async function getData() {
 
 const Page =  async () => {
     let data = await getData()
-
-
-
 
     return (
       <>
