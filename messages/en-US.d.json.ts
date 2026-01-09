@@ -6,6 +6,7 @@ declare const messages: {
   "helloMessage": "Hello {name}!",
   "global": {
     "reset": "Reset"
-  }
+  },
+  "pluralizationExample": "{count, plural,\n  =0 {The count has not been changed.}\n  =-1 {The count has been changed to -1.}\n  one {The count has been changed to 1.}\n  other {The count has been changed to #.}\n}"
 };
 export default messages;

@@ -10,9 +10,9 @@ const ExampleTranslationUsingPluralization = () => {
 
     return (
       <> 
-        <div className="flex flex-col items-center justify-center   p-4">
+        <div className="flex flex-col items-center justify-center p-4">
           <div className="p-8 rounded-2xl shadow-xl text-center w-64">
-            <div className="text-6xl font-extrabold  mb-8">
+            <div className="text-6xl font-extrabold mb-8">
               {count}
             </div>
 
@@ -38,6 +38,8 @@ const ExampleTranslationUsingPluralization = () => {
             >
               {t('global.reset')}
             </button>
+
+            <p>{t("pluralizationExample", {count: count})}</p>
           </div>
         </div>
       </>
