@@ -1,20 +1,18 @@
 "use client"
+import { useTranslations } from "next-intl"
 // For i18n to work on the client side, the application must be wrapped in a `<NextIntlClientProvider>` (see layout.tsx line 31)
 import { useState } from "react"
 
 
-const ExampleTranslationUsingCount = () => {
+const ExampleTranslationUsingPluralization = () => {
+    const t = useTranslations()
     const [count, setCount] = useState<number>(0)
 
     return (
       <> 
-        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
-          <div className="bg-white p-8 rounded-2xl shadow-xl text-center w-64">
-            <h2 className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-2">
-              Current Count
-            </h2>
-            
-            <div className="text-6xl font-extrabold text-gray-800 mb-8">
+        <div className="flex flex-col items-center justify-center   p-4">
+          <div className="p-8 rounded-2xl shadow-xl text-center w-64">
+            <div className="text-6xl font-extrabold  mb-8">
               {count}
             </div>
 
@@ -36,9 +34,9 @@ const ExampleTranslationUsingCount = () => {
 
             <button
               onClick={() => setCount(0)}
-              className="mt-6 text-sm text-gray-500 hover:text-blue-600 font-medium transition-colors"
+              className="mt-6 text-sm hover:text-blue-600 font-medium transition-colors"
             >
-              Reset Counter
+              {t('global.reset')}
             </button>
           </div>
         </div>
@@ -46,4 +44,4 @@ const ExampleTranslationUsingCount = () => {
     )
 }
 
-export default ExampleTranslationUsingCount
+export default ExampleTranslationUsingPluralization

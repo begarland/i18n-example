@@ -3,6 +3,9 @@
 
 declare const messages: {
   "heroTitle": "Hello world.",
-  "helloMessage": "Hello {name}!"
+  "helloMessage": "Hello {name}!",
+  "global": {
+    "reset": "Reset"
+  }
 };
 export default messages;

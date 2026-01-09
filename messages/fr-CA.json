@@ -1,4 +1,7 @@
 {
   "heroTitle": "Bonjour le monde.",
-  "helloMessage": "Bonjour {name}!"
+  "helloMessage": "Bonjour {name}!",
+  "global": {
+    "reset": "Réinitialiser"
+  }
 }
