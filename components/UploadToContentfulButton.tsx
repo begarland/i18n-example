@@ -1,6 +1,6 @@
 "use client"
 
-import { uploadEntryToContentful } from "../fetches/uploadEntryToContentful"
+import { uploadEntryToContentful } from "../app/fetches/uploadEntryToContentful"
 
 const UploadToContentfulButton = () => {
     return (
