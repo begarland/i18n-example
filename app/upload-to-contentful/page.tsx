@@ -1,6 +1,6 @@
 require("dotenv").config();
 import * as contentful from 'contentful'
-import UploadToContentfulButton from '../components/uploadToContentfulButton';
+import UploadToContentfulButton from '../components/UploadToContentfulButton';
 
 const client = contentful.createClient({
   space: `${process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID}`,

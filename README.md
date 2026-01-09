@@ -11,6 +11,9 @@ Internationalization is abbreviated as `i18n` as there are 18 letters between th
 
 Internationalization (i18n) is a critical architectural strategy that decouples an application's logic from its content, allowing the application to scale globally without rewriting code. Beyond just translating text, it handles complex cultural nuances like date formats, currencies, and pluralization rules that are essential for building user trust and accessibility. By implementing i18n, teams can significantly improving SEO and market reach across non-English speaking region.
 
+
+Localization is abbreviated `l10n` as there are 10 letters between the `l` and the `n` in the word `localization`.
+
 ## Best Practices
 
 ### 1. Structure & Naming
@@ -63,12 +66,16 @@ High level breakdown:
 
 - how to use translate with `t({})`
     - adding translations to a translations file 
+        - view files `translate-sync/page.tsx` and `translate-async/page.tsx` 
+        
     - using tools like counting, plural
 - Using Translate with `<Trans>`
 - Best Practices in i18n
 
 - Contentful
     - Localizing components 
+        - text
+        - images
     - upload to contentful -> this would be only necessary for engineers working on the Contentful MFE 
 
 
@@ -85,3 +92,13 @@ npm run dev
 ```
 
 
+
+
+## Editor Tools: 
+
+Name: i18n Ally
+Id: Lokalise.i18n-ally
+Description: 🌍 All in one i18n extension for VS Code
+Version: 2.13.1
+Publisher: Lokalise
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=Lokalise.i18n-ally

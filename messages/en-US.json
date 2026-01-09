@@ -1,3 +1,4 @@
 {
-  "heroTitle": "Hello world."
+  "heroTitle": "Hello world.",
+  "helloMessage": "Hello {name}!"
 }
