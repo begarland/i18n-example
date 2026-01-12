@@ -1,4 +1,5 @@
 require("dotenv").config();
+import { getLocale } from '@/src/services/cookies';
 import * as contentful from 'contentful'
 import Markdown from 'react-markdown'
 
@@ -10,9 +11,11 @@ const client = contentful.createClient({
 async function getData() {
     let data: any;
 
+    const locale = await getLocale();
+
     await client.getEntries({
         content_type: 'title',
-        locale: 'fr-CA'
+        locale: locale,
     }).then(function (entries) {
        data = entries
     });
