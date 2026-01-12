@@ -27,6 +27,7 @@ const ExampleTranslationUsingSelect = () => {
         >
           {colors.map((color) => (
             <option key={color.value} value={color.value}>
+              {/* Remember to ALWAYS add an "other" option for select to work. */}
               {t('color', {color: color.name as any})}
             </option>
           ))}

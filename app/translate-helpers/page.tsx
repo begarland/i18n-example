@@ -2,24 +2,26 @@ import ExampleTranslationUsingRichText from "@/components/ExampleTranslationsUsi
 import ExampleTranslationUsingArgument from "@/components/ExampleTranslationUsingArgument"
 import ExampleTranslationUsingPluralization from "@/components/ExampleTranslationUsingPluralization"
 import ExampleTranslationUsingSelect from "@/components/ExampleTranslationUsingSelect"
+import { useTranslations } from "next-intl"
 
 const Page = () => {
+    const t = useTranslations("TranslateHelpers")
     return (
       <div className="">
         <div>
-            <p>The below example uses an argument</p>
+            <p>{t('argument')}</p>
             <ExampleTranslationUsingArgument />
         </div>
             <div>
-            <p>The below example demonstrates pluralization</p>
+            <p>{t('pluralization')}</p>
             <ExampleTranslationUsingPluralization />
         </div> 
         <div>
-            <p>The below example uses rich text</p>
+            <p>{t('rich')}</p>
             <ExampleTranslationUsingRichText />
         </div>
         <div>
-            <p>The below example uses the select keyword</p>
+            <p>{t("select")}</p>
             <ExampleTranslationUsingSelect />
         </div>
      

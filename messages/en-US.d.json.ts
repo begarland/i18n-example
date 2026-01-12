@@ -9,6 +9,21 @@ declare const messages: {
   },
   "pluralizationExample": "{count, plural,\n  =0 {The count has not been changed.}\n  =-1 {The count has been changed to -1.}\n  one {The count has been changed to 1.}\n  other {The count has been changed to #.}\n}",
   "linkExample": "This example includes a <link>link</link>!",
-  "color": "{color, select, White {White} Red {Red} Blue {Blue} Green {Green} Purple {Purple} other {None}}"
+  "color": "{color, select, White {White} Red {Red} Blue {Blue} Green {Green} Purple {Purple} other {None}}",
+  "Home": {
+    "synchronous": "Synchronous useTranslate example",
+    "i18nTitle": "i18n Examples",
+    "async": "Asynchronous getTranslate example",
+    "helpers": "Translation helpers",
+    "contentfulTitle": "Contentful Examples",
+    "pullContentful": "Pull from contentful example ",
+    "pushContentful": "Push to contentful example "
+  },
+  "TranslateHelpers": {
+    "argument": "The below example uses an argument",
+    "pluralization": "The below example demonstrates pluralization",
+    "rich": "The below example uses rich text",
+    "select": "The below example uses the \"select\" keyword"
+  }
 };
 export default messages;

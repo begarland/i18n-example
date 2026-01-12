@@ -5,6 +5,21 @@
     "reset": "Réinitialiser"
   },
   "pluralizationExample": "{count, plural,\n  =0 {Le compte n'a pas été modifié.}\n  =-1 {Le compte a été modifié à -1.}\n  one {Le compte a été modifié à 1.}\n  other {Le compteur a été modifié en #.}\n}",
-  "linkExample": "\nCet exemple contient un <linklien</link>!",
-  "color": "{color, select, Blanc {Blanc} Rouge {Rouge} Bleu {Bleu} Vert {Vert} Violet {Violet} autre {Aucun}}"
+  "linkExample": "\nCet exemple contient un <link>lien</link>!",
+  "color": "{color, select, White {Blanc} Red {Rouge} Blue {Bleu} Green {Vert} Purple {Violet} other {Aucun}}",
+  "Home": {
+    "synchronous": "Exemple d'utilisation synchrone de Translate",
+    "i18nTitle": "Exemples i18n",
+    "async": "Exemple getTranslate asynchrone",
+    "helpers": "Aides à la traduction",
+    "contentfulTitle": "Exemples de contenu",
+    "pullContentful": "Extraire d'un exemple de contenu",
+    "pushContentful": "Pousser vers un exemple de contenu"
+  },
+  "TranslateHelpers": {
+    "argument": "L'exemple ci-dessous utilise un argument",
+    "pluralization": "L'exemple ci-dessous démontre la pluralisation",
+    "rich": "L'exemple ci-dessous utilise du texte enrichi",
+    "select": "L'exemple ci-dessous utilise le mot-clé \"select\""
+  }
 }
