@@ -23,8 +23,10 @@ declare const messages: {
     "argument": "The below example uses an argument",
     "pluralization": "The below example demonstrates pluralization",
     "rich": "The below example uses rich text",
-    "select": "The below example uses the \"select\" keyword"
+    "select": "The below example uses the \"select\" keyword",
+    "number": "The below example uses number formatting"
   },
-  "setDisplayName": "Set Display Name"
+  "setDisplayName": "Set Display Name",
+  "Price": "Price"
 };
 export default messages;

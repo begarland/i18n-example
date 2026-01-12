@@ -20,7 +20,9 @@
     "argument": "L'exemple ci-dessous utilise un argument",
     "pluralization": "L'exemple ci-dessous démontre la pluralisation",
     "rich": "L'exemple ci-dessous utilise du texte enrichi",
-    "select": "L'exemple ci-dessous utilise le mot-clé \"select\""
+    "select": "L'exemple ci-dessous utilise le mot-clé \"select\"",
+    "number": "L'exemple ci-dessous utilise le formatage des nombres"
   },
-  "setDisplayName": "\nDéfinir le nom d'affichage"
+  "setDisplayName": "\nDéfinir le nom d'affichage",
+  "Price": "Prix"
 }

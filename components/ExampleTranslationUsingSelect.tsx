@@ -17,7 +17,7 @@ const ExampleTranslationUsingSelect = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center p-10 space-y-6">
+    <div className="border-b flex flex-col items-center justify-center p-10 space-y-6">
       <div className="text-center">        
         <select
           id="color-select"
