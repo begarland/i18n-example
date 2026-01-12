@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-export function middleware(request: { nextUrl: { clone: () => any; }; }) {
+export function proxy(request: { nextUrl: { clone: () => any; }; }) {
   const url = request.nextUrl.clone();
   const localeParam = url.searchParams.get('locale');
 
