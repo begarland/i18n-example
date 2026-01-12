@@ -24,6 +24,7 @@ declare const messages: {
     "pluralization": "The below example demonstrates pluralization",
     "rich": "The below example uses rich text",
     "select": "The below example uses the \"select\" keyword"
-  }
+  },
+  "setDisplayName": "Set Display Name"
 };
 export default messages;

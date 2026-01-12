@@ -21,5 +21,6 @@
     "pluralization": "L'exemple ci-dessous démontre la pluralisation",
     "rich": "L'exemple ci-dessous utilise du texte enrichi",
     "select": "L'exemple ci-dessous utilise le mot-clé \"select\""
-  }
+  },
+  "setDisplayName": "\nDéfinir le nom d'affichage"
 }
