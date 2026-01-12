@@ -7,6 +7,7 @@ declare const messages: {
   "global": {
     "reset": "Reset"
   },
-  "pluralizationExample": "{count, plural,\n  =0 {The count has not been changed.}\n  =-1 {The count has been changed to -1.}\n  one {The count has been changed to 1.}\n  other {The count has been changed to #.}\n}"
+  "pluralizationExample": "{count, plural,\n  =0 {The count has not been changed.}\n  =-1 {The count has been changed to -1.}\n  one {The count has been changed to 1.}\n  other {The count has been changed to #.}\n}",
+  "linkExample": "This example includes a <link>link</link>!"
 };
 export default messages;

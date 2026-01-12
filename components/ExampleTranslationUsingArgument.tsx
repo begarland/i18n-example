@@ -12,11 +12,12 @@ const ExampleTranslationUsingArgument = () => {
     return (
       <div className="border-b p-10 flex flex-col gap-4">
 
-        <div className="flex gap-2">
+        <div className="flex gap-2 flex-col items-center ">
           <input className="bg-white text-black p-2 rounded" value={name} onChange={(e) => setName(e.target.value)} />
           <button className="bg-blue-800 text-white bold rounded p-2" onClick={() => {setDisplayName(name); setName('')}}>Set Display Name</button>
+           <h2>{t('helloMessage', {name: displayName})}</h2>
         </div>
-        <h2>{t('helloMessage', {name: displayName})}</h2>
+       
       </div>
     )
 }

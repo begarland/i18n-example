@@ -10,7 +10,7 @@ const ExampleTranslationUsingPluralization = () => {
 
     return (
       <> 
-        <div className="flex flex-col items-center justify-center p-4">
+        <div className="border-b flex flex-col items-center justify-center p-4">
           <div className="p-8 rounded-2xl shadow-xl text-center w-64">
             <div className="text-6xl font-extrabold mb-8">
               {count}

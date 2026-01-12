@@ -4,5 +4,6 @@
   "global": {
     "reset": "Réinitialiser"
   },
-  "pluralizationExample": "{count, plural,\n  =0 {Le compte n'a pas été modifié.}\n  =-1 {Le compte a été modifié à -1.}\n  one {Le compte a été modifié à 1.}\n  other {Le compteur a été modifié en #.}\n}"
+  "pluralizationExample": "{count, plural,\n  =0 {Le compte n'a pas été modifié.}\n  =-1 {Le compte a été modifié à -1.}\n  one {Le compte a été modifié à 1.}\n  other {Le compteur a été modifié en #.}\n}",
+  "linkExample": "\nCet exemple contient un <linklien</link>!"
 }
